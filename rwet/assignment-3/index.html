@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/blog/styles.ad99dd6bcc13916f990d.css">article h1{transform:none}h1{transform:rotate(-7deg);margin-bottom:1.5;margin-top:0;color:#000;font-family:Times New Roman,Times,serif}h1 a{box-shadow:2px 4px 3px grey;font-size:10;padding:3px 20px;border:1px solid #000}h1 a,header h3{color:#000;font-family:Times New Roman,Times,serif;text-decoration:none}header h3{margin-top:2em;transform:rotate(2deg);font-weight:400}article h3{margin-top:.2em;transform:rotate(-1deg);color:#000;font-family:Times New Roman,Times,serif;font-weight:400;text-decoration:none}.blog{padding-left:.5em;padding-right:.5em}small{color:#a9a9a9}.gatsby-resp-image-link{border-style:none;box-shadow:none}figcaption{font-style:italic;text-align:center}a{box-shadow:2px 4px 3px grey;color:#000;font-family:Times New Roman,Times,serif;font-size:10;text-decoration:none;padding:3px 20px;border:1px solid #000;margin:1em .5em;display:inline-block}footer{position:absolute;bottom:1em;right:1em}</style><meta name="generator" content="Gatsby 2.24.52"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><link rel="icon" href="/blog/favicon-32x32.png?v=ccc867e94c0d297ba2da964ff14b189b" type="image/png"/><link rel="manifest" href="/blog/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/blog/icons/icon-48x48.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="72x72" href="/blog/icons/icon-72x72.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="96x96" href="/blog/icons/icon-96x96.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="144x144" href="/blog/icons/icon-144x144.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="192x192" href="/blog/icons/icon-192x192.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="256x256" href="/blog/icons/icon-256x256.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="384x384" href="/blog/icons/icon-384x384.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="512x512" href="/blog/icons/icon-512x512.png?v=ccc867e94c0d297ba2da964ff14b189b"/><title data-react-helmet="true">personality generator | fridge notes</title><meta data-react-helmet="true" name="description" content="experiments in tracery and python to analyze a genre"/><meta data-react-helmet="true" property="og:title" content="personality generator"/><meta data-react-helmet="true" property="og:description" content="experiments in tracery and python to analyze a genre"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="samheckle"/><meta data-react-helmet="true" name="twitter:title" content="personality generator"/><meta data-react-helmet="true" name="twitter:description" content="experiments in tracery and python to analyze a genre"/><link as="script" rel="preload" href="/blog/webpack-runtime-a3d6c7896f295f3e0ae1.js"/><link as="script" rel="preload" href="/blog/framework-892a3274de517370df09.js"/><link as="script" rel="preload" href="/blog/app-1d731012898be04d71b7.js"/><link as="script" rel="preload" href="/blog/styles-c2fe8482057191dca484.js"/><link as="script" rel="preload" href="/blog/commons-7cdd843b37b1586bd660.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-08232710e2bce19ad3e1.js"/><link as="fetch" rel="preload" href="/blog/page-data/rwet/assignment-3/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/3257411868.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:40%;padding:1.5 0.75"><header><h3><a href="/blog/">fridge notes</a></h3></header><main><article><header><h1 style="margin-top:1px;margin-bottom:0">personality generator</h1><p style="display:block;margin-bottom:1px">March 06, 2022</p></header><section><p><a href="http://samheckle.com/hosted/pg/">try it out here!</a></p>
+<p><a href="https://github.com/samheckle/rwet/blob/master/assignment-3/personality-generator.ipynb">link to code</a>
+<figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVQoz52S246CQBBE/f9/I5iY8IAiiMrFEBAUBVTaPZ00q7v7sk5S6ZpbTXf1zORrlGUpu91OsiyTPM+lrmtpmkZjVVUTPx6PCuYAzv7tdkNGxnGUGQSRKIrE933Z7/dyPp+lbVs5nU568ZVfLhedAxO93+/vgmS2Xq8ljmMJw1CSJFGOOJy43W6VUwl7zNM01WQQ/pXharWaLnIJGLeIgIltNhu1gXIfj8e7IC8vFgvNzvyiRPwBVjLrlGylAvP5er2q6JQhLwIyXS6XGrEBITy1Rr2KA/NzGIZvwaIoJAgCBeKU0XWd9H2vBwFrPzn7dsYao4Jk4jiOzOdzcV1XPM9TG3jIvtLhcNBonHXOEJlbY1SQ+s0T/iQ+fTKmpuARHTaYIAf+A83QyF+vfTKe/iNLELOw8DYAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="example of final output"
+        title="example of final output"
+        src="/blog/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png"
+        srcset="/blog/static/6b5a52c77ad606270ad096031a650aef/12f09/beautiful.png 148w,
+/blog/static/6b5a52c77ad606270ad096031a650aef/e4a3f/beautiful.png 295w,
+/blog/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png 590w,
+/blog/static/6b5a52c77ad606270ad096031a650aef/efc66/beautiful.png 885w,
+/blog/static/6b5a52c77ad606270ad096031a650aef/c83ae/beautiful.png 1180w,
+/blog/static/6b5a52c77ad606270ad096031a650aef/29114/beautiful.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">example of final output</figcaption>
+  </figure></p>
+<h2>inspiration</h2>
+<p>i’ve wanted to work with personality tests for a moment, and this seemed like a good opportunity to explore the output of personality tests. specifically, i drew inspiration from enneagram, myers briggs, and astrology analysis as my baseline for what i wanted to create. </p>
+<p>i looked at these examples as my inspiration (you can also read more about the tests themselves):
+<a href="https://www.enneagraminstitute.com/the-traditional-enneagram">enneagram description</a>
+<a href="https://www.enneagraminstitute.com/type-1">enneagram type 1</a>
+<a href="https://www.enneagraminstitute.com/type-descriptions">enneagram type descriptions</a></p>
+<p><a href="https://www.16personalities.com/personality-types">myers briggs personality types</a>
+<a href="https://www.16personalities.com/enfp-personality">myers briggs ENFP</a>
+<a href="https://www.16personalities.com/istj-strengths-and-weaknesses">myers briggs ISTJ strengths &#x26; weaknesses</a></p>
+<p><a href="https://cafeastrology.com/articles/mooninsigns_pg2.html">astrology moon signs</a>
+<a href="https://blog.prepscholar.com/scorpio-moon-sign">astrology moon signs in relation to their sun</a></p>
+<h2>process</h2>
+<p>i began with identifying what i wanted to include in my version of this generator. key features of each personality test result i identified:</p>
+<ol>
+<li>title</li>
+<li>brief description with important traits</li>
+<li>strengths / weaknesses, desires / fears</li>
+<li>longer description</li>
+<li>compatibility with other types</li>
+</ol>
+<p>this translated into my ruleset pretty directly:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">rules = {
+    &quot;origin&quot;: &quot;#title#&quot;,
+    &quot;title&quot;: &quot;THE [type:#description#]#type.uppercase#&quot;,
+    &quot;description&quot;: descript[&quot;descriptions&quot;]
+}</code></pre></div>
+<p>something i <em>didn’t</em> realize for awhile is that you can save states of effectively variables using <code class="language-text">[]</code> and whatever you want the data to be saved as. in the above example i use <code class="language-text">type</code> as my variable name and pulling that randomly from my source files. </p>
+<p>here are some in-progress screenshots of what was being generated:
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0UlEQVQoz61S2QqEQAzr/3+cIKIPXm+CeN+3ZknBRcSndQslnWbIZKYjx3HgmowTfwm5Lu7iv6Tc3b0NadsWYRgiCAKUZYl5njGOI7quwzAMmKYJfd+D+4jkWDdNo/y5j9y6rpCiKGAYBkzThOM4sG0bURQhyzKkaQryrJMkUYzjWMXYp3BVVajrWpNmJM9zWJYFz/PUqeu6Kk7Hvu8rkmOfhxEpSoHHK/Pttm3Dvu9fXJZF7TPZY5491nwGrh+H8mYAT8OUt9/k/m8Ff46/C34ANCJdeWSRZMYAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="blunt"
+        title="blunt"
+        src="/blog/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png"
+        srcset="/blog/static/13a911a195c89cbaa3706421f248d093/12f09/blunt.png 148w,
+/blog/static/13a911a195c89cbaa3706421f248d093/e4a3f/blunt.png 295w,
+/blog/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png 590w,
+/blog/static/13a911a195c89cbaa3706421f248d093/efc66/blunt.png 885w,
+/blog/static/13a911a195c89cbaa3706421f248d093/c83ae/blunt.png 1180w,
+/blog/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/8e5e19397f9749813d0938f54176181e/29114/indep.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnklEQVQoz81RQQqAIBD0/y/r6M0E8xaUIGJkUVETI9ipLtGhhWF0d2ZdWYGPQxzHgbdgFL4avp3k6RGxbRtCCPDeY9/3WwODtQJ6Hr/c9z2qqoKUEkopWGthjMmstUbTNKjrGtR1XZfRti1SSpimCeM4Yp5nDMOAdV0hmHDOIcZ4iSggeC9M8bIsGZywnFkn08e8+NWWb5fy+YS/b3gCzWtjfOXBBu0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="indep"
+        title="indep"
+        src="/blog/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png"
+        srcset="/blog/static/8e5e19397f9749813d0938f54176181e/12f09/indep.png 148w,
+/blog/static/8e5e19397f9749813d0938f54176181e/e4a3f/indep.png 295w,
+/blog/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png 590w,
+/blog/static/8e5e19397f9749813d0938f54176181e/efc66/indep.png 885w,
+/blog/static/8e5e19397f9749813d0938f54176181e/c83ae/indep.png 1180w,
+/blog/static/8e5e19397f9749813d0938f54176181e/29114/indep.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRklEQVQoz62R6W6CUBCF7/s/Gn+MhLggikpU3MFdFE7zTXNt0zRpk5ZkMtth7pwz7nw+a71eazabKU1T3e93/eVzZVlqPB6bTadTLRYLHY9HbTYbFUVhBma/32u321m+XC613W4Nh6dP73Q6yVH0w9iWnC0vl4uu16vVyImpYYfDwXC32+2FYxg4x2SGQRfak8lE8/lco9HIHmKbfr9vvc99elmWmYcVm/OAW61WiuNY3W5XnU5HSZKYb7fb6vV6Gg6HiqJIg8FAYRhaDSwPUqfGUCSq6/pdQ5oUHo+HUYAONKAAZU/r+Xy+jJ/Be19V1cdR2BDaXBvxGU4dCuTQJv/VlQG3Wi0FQWCeodBEL7ShzwMMRjPiPM+th/54cmLYOK4DCKG9eS3Rxl/WXxTvLw5NYmrIgxRO//y5pmn01RAa+673k70BLWhIJYmQWaEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="vuln"
+        title="vuln"
+        src="/blog/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png"
+        srcset="/blog/static/ac095045363531a8d83b34585a4bd441/12f09/vuln.png 148w,
+/blog/static/ac095045363531a8d83b34585a4bd441/e4a3f/vuln.png 295w,
+/blog/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png 590w,
+/blog/static/ac095045363531a8d83b34585a4bd441/efc66/vuln.png 885w,
+/blog/static/ac095045363531a8d83b34585a4bd441/c83ae/vuln.png 1180w,
+/blog/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>speaking of my source files, these came from the corpora project:</p>
+<p><a href="https://github.com/dariusk/corpora/tree/master/data/humans">moods</a>
+<a href="https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json">tarot interpretation</a>
+<a href="https://github.com/dariusk/corpora/blob/master/data/humans/descriptions.json">adj for describing people</a></p>
+<p>i pulled these in using the following code:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">import json
+with open(&#39;descriptions.json&#39;) as f:
+    descript = json.load(f)
+with open(&#39;moods.json&#39;) as f:
+    mood = json.load(f)[&quot;moods&quot;]
+with open(&#39;tarot_interpretations.json&#39;) as f:
+    interpret = json.load(f)
+
+# post-processing data
+buzzwords = []
+fears = []
+desires = []
+for i in interpret[&quot;tarot_interpretations&quot;]:
+    buzzwords.extend(i[&quot;keywords&quot;])
+    desires.extend(i[&quot;meanings&quot;][&quot;light&quot;])
+    fears.extend(i[&quot;meanings&quot;][&quot;shadow&quot;])</code></pre></div>
+<p>i selected moods, tarot interpretations, and adjectives for describing people from the corpora project, and parsed it as needed. the only one i did more data processing on was tarot interpretations, because the “keywords” can be used as traits of a person. for the light and shadow, i made those into fears and desires for each personality. </p>
+<p>i also added a button, which reruns the cell so that the personalities are generated endlessly. this was done with the following code:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">def run_all(ev):
+    display(Javascript(&#39;IPython.notebook.execute_cells_below()&#39;))
+
+html_src = &quot;&lt;body&gt;&lt;p&gt;&quot;+&quot;&quot;.join(story).replace(&quot;\n&quot;, &quot;&lt;br&gt;&quot;)+&quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;
+show_html(html_src)
+button = widgets.Button(description=&quot;NEW PERSONALITY&quot;)
+button.on_click(run_all)
+display(button)</code></pre></div>
+<h2>final</h2>
+<p><a href="https://github.com/samheckle/rwet/blob/master/assignment-3/personality-generator.ipynb">link to code (again)</a>
+<figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaElEQVQoz42SWY+CQBCE/f9/y/ig8U68jTfKMdwMCwjWVrPsw/qwMkmnCRk+qrq6A57X61WXnDRNEZsmvMUCdr8PYzDAudeD2e3Cmc8RWha070OHIfIsw/v3nfcXXwSGjwe81QrOZAK13ULt9/DWa/jswemExPOQKIUsjtsBg8ulBjjTKVyqUrMZ7OEQqnkWqOa9oizl4/+BWmuEtOxvNrBo9zIe406Iu1wiuF4RHI8I+cPYdZET+lFhSqAo9KnQpiKb1lVj16d9AdfWCc+SpIVlAl0CFO3aoxFchuMR8tvFtliObRvF8/kZqDloCSWg5RvtntklgD8lKQdBu5Q1bfgSChVZVGTSpse5Rfc7IsOo5xfSrvRWlhNRSDsyQ0P2kPNShwMiAd1uiKhe9rQOJc9bhkIlEoCiSlPATNnb7eqEI8ISx0HMynj3I7AoCuQcdskde7LyprhxqFgl79VVVaiq6gfYMOR8A6XnSHxZz8fQAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="final ruleset"
+        title="final ruleset"
+        src="/blog/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png"
+        srcset="/blog/static/b4f7c820edeabdbb580c55f2a211b538/12f09/rules.png 148w,
+/blog/static/b4f7c820edeabdbb580c55f2a211b538/e4a3f/rules.png 295w,
+/blog/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png 590w,
+/blog/static/b4f7c820edeabdbb580c55f2a211b538/efc66/rules.png 885w,
+/blog/static/b4f7c820edeabdbb580c55f2a211b538/c83ae/rules.png 1180w,
+/blog/static/b4f7c820edeabdbb580c55f2a211b538/29114/rules.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">final ruleset</figcaption>
+  </figure>
+<figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABTklEQVQoz42S646CQAyFff+HQyMQQX8gIjdvaERQuXT5mh0i2cTsJIcOnfb0tDMzGVZVVRLHsaRpKlEU6f5+v8v7/ZbX6yXP53NiAWfA+Pq+h0pmfHBmWSbH43HE4XCQPM8lSRItRJEwDNXiI94I2O12Sj4Snk4nsSxLHMeRxWIh8/n8jyURIrDf78eOAAJQORLSXhAEWgllBKGAJIrhK4pCEy+Xi1yvV/Xfbjfdd12nZLSthMXgtG1bPM/TpPP5rMEkQQ4hRIYUyxlkxLJnbKNCcynb7VbnRHsG+FBOTF3X8ng8NJmusPjxtW07bdlfr2U9AAICyrJUa4hMMhY/l2DImqaZtoz01WqlhGCz2chyGMHydwy+7ytc19UzY3kFtAvxhJBqXIJ5DijmkGFjaQfw/+n7XJN3yCEqGTagxf8sSAxGhebnW/A3fKpj/QCGGkeCd2MafQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="another final output"
+        title="another final output"
+        src="/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png"
+        srcset="/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/12f09/uncoop.png 148w,
+/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/e4a3f/uncoop.png 295w,
+/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png 590w,
+/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/efc66/uncoop.png 885w,
+/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/c83ae/uncoop.png 1180w,
+/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/29114/uncoop.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">another final output</figcaption>
+  </figure></p>
+<hr>
+<h1>resources</h1>
+<p><a href="https://github.com/aparrish/rwet/blob/master/tracery-and-python.ipynb">tracery and python notebook</a>
+<a href="https://github.com/galaxykate/tracery">tracery repository</a>
+<a href="http://www.crystalcodepalace.com/traceryTut.html">tracery tutorial</a>
+<a href="https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html">ipython display documentation</a>
+<a href="https://stackoverflow.com/questions/32714783/ipython-run-all-cells-below-from-a-widget">running all cells from button</a></p></section><hr style="margin-bottom:1px"/><div style="display:flex;margin-bottom:2.5px"><p>a blog by <strong>sam heckle</strong> <!-- -->class of itp 2022. doing shit.<!-- --> <a href="https://twitter.com/samheckle">twitter.</a></p></div></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/catn/assignment-2/">← <!-- -->sketch #2 documentation</a></li><li><a rel="next" href="/blog/catn/assignment-3/">travels of a love letter<!-- --> →</a></li></ul></nav></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/rwet/assignment-3/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-a5ec5765308d866354f3.js"],"app":["/app-1d731012898be04d71b7.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f7a3a65ed08052a95b44.js"],"component---src-pages-absurd-js":["/component---src-pages-absurd-js-5ae3e44e9b306ff8a2f8.js"],"component---src-pages-animation-js":["/component---src-pages-animation-js-ab5b4a6d51180bdb4d48.js"],"component---src-pages-biomaterials-js":["/component---src-pages-biomaterials-js-3d94f69abd1d655852b6.js"],"component---src-pages-blessed-js":["/component---src-pages-blessed-js-1e02d1f068b21e177f54.js"],"component---src-pages-catn-js":["/component---src-pages-catn-js-0883a113001089b1d2e8.js"],"component---src-pages-collective-play-js":["/component---src-pages-collective-play-js-1aa6409eab62adc675e0.js"],"component---src-pages-cybernetics-js":["/component---src-pages-cybernetics-js-5e70ffdc2780e872efd9.js"],"component---src-pages-energy-js":["/component---src-pages-energy-js-fc4532a0541a0bdc1aaa.js"],"component---src-pages-general-js":["/component---src-pages-general-js-3f0737bf1b34425672cd.js"],"component---src-pages-index-js":["/component---src-pages-index-js-8e1639dd48fe23b24bcb.js"],"component---src-pages-material-of-language-js":["/component---src-pages-material-of-language-js-2192e886b201e71ef7e4.js"],"component---src-pages-networks-js":["/component---src-pages-networks-js-4c863e58e01c91b47b8e.js"],"component---src-pages-physical-computing-js":["/component---src-pages-physical-computing-js-017a598dbbfe9bc348ba.js"],"component---src-pages-religious-robots-js":["/component---src-pages-religious-robots-js-592dda5198b5cbb45b0b.js"],"component---src-pages-rwet-js":["/component---src-pages-rwet-js-000b20fc80b989ff53ff.js"],"component---src-pages-thesis-js":["/component---src-pages-thesis-js-ac02b01ec584033c2314.js"],"component---src-pages-visual-language-js":["/component---src-pages-visual-language-js-ef5447fdbdd8986cd140.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-08232710e2bce19ad3e1.js"]};/*]]>*/</script><script src="/blog/polyfill-a5ec5765308d866354f3.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-08232710e2bce19ad3e1.js" async=""></script><script src="/blog/commons-7cdd843b37b1586bd660.js" async=""></script><script src="/blog/styles-c2fe8482057191dca484.js" async=""></script><script src="/blog/app-1d731012898be04d71b7.js" async=""></script><script src="/blog/framework-892a3274de517370df09.js" async=""></script><script src="/blog/webpack-runtime-a3d6c7896f295f3e0ae1.js" async=""></script></body></html>
