@@ -1,4 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 19:34:37 GMT</lastBuildDate><item><title><![CDATA[blackout poetry]]></title><description><![CDATA[code]]></description><link>http://blog.samheckle.com/rwet/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/assignment-4/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-4/assignment-4.ipynb&quot;&gt;code&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[travels of a love letter]]></title><description><![CDATA[Idea Drawing inspiration from Zen Garden, I wanted to create what it is like as a digital love letter. It is one sided, so the player must…]]></description><link>http://blog.samheckle.com/catn/assignment-3/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-3/</guid><pubDate>Mon, 07 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Idea&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 22:24:34 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[inspiration process final resources]]></description><link>http://blog.samheckle.com/template-index/</link><guid isPermaLink="false">http://blog.samheckle.com/template-index/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;h2&gt;process&lt;/h2&gt;
+&lt;h2&gt;final&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h1&gt;resources&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[blackout poetry]]></title><description><![CDATA[code on blackout poetry some initial outputs my favorite being: “Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl…]]></description><link>http://blog.samheckle.com/rwet/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/assignment-4/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-4/assignment-4.ipynb&quot;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;on blackout poetry&lt;/h2&gt;
+&lt;p&gt;some initial outputs&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;subtiy ,,,,,,,,,,, oh ,,,,,,,,,,, Immortality ,,,,,,,,,,,
+
+Shhhh ,,,,,,,,,,,,,,,,,,,,, Witchcraft ,,,,,,,,,,,,,,,,,,,,, antique ,,,,,,,,,,,,,,,,,,,,,  ,,,,,,,,,,,,,,,,,,,,,
+
+My ,,,,,,,,,,,,,,,,,,, crap ,,,,,,,,,,,,,,,,,,, underworld ,,,,,,,,,,,,,,,,,,, crap
+
+Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,,,,,,,,,,,,,,,,,,,,,, man&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;my favorite being: “Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,,,,,,,,,,,,,,,,,,,,,, man”&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAy0lEQVQoz81SOwqEMBT0wEq0EqxFK9HaK1hZSyqxtPMINp5A/I68gbg/FrZIsQ+G8CbD5E0S5zxP2IQDy0VD477vO5ZlwbquXKU/joO9wbZtH1qB6Ggom8b01/qmFVNOOM8zT2yaBq7rIooiKKXQti3GcUQYhoTv+yjLklPWdQ3P86gNggB93z8iy+ji3nUd4jhGURRIkoSiaZqQZRmRpimqqqJWa01tnufkh2F4jWyj7sjmUYSQOAbSC//MydWYR3nX3pGtf5u/NrwACXNHRGbS6AsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;an attempt to get actual blackouts working&quot;
+        title=&quot;an attempt to get actual blackouts working&quot;
+        src=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png&quot;
+        srcset=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/12f09/attempt.png 148w,
+/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/e4a3f/attempt.png 295w,
+/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png 590w,
+/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/efc66/attempt.png 885w,
+/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/c83ae/attempt.png 1180w,
+/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;an attempt to get actual blackouts working&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;i wanted to create another type of blackout poetry based of my first cut up, which was about beatrice potter’s tale of peter rabbit.&lt;/p&gt;
+&lt;p&gt;that original output can be viewed &lt;a href=&quot;&quot;&gt;here&lt;/a&gt; but here is a sample of what was produced.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVQoz4WSR46FQAwFuf8RWbAgR5Fz8ExZ6lEPH/EtIXfAZfu1Hfm167rE9uu6yr7vuj7PU/fctW0raZrKPM9S17Ucx/EvDnPMwj60DWDXdX9gQACXZVHgvRjH3mzbJkEQKIA1AUDGcVQgfpomqapK+r7Xau9VfgCTJNHWyrKUpmm0darBUxkJ2LMGbuIfgfxIdmPDMCgUI0me55qUc8AAX1s2Gtm6sseTDCmAmTtkeAUSRKsEmpemKiBoxpktQ5Zl7xqiSxiG+iMgz/MkiiIpikJbBowk6AwQb8brEYgmAAH4vi+u62ogRiDnRjsSfB0bguM41pYJAHCfT0aHh6EbvsfBNgdkBGqGFtHtsbAfAn+/x34A6r9cpP2opTYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;orig&quot;
+        title=&quot;orig&quot;
+        src=&quot;/blog/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png&quot;
+        srcset=&quot;/blog/static/7ad502a2f3ed75ac82026125de15b0d7/12f09/orig.png 148w,
+/blog/static/7ad502a2f3ed75ac82026125de15b0d7/e4a3f/orig.png 295w,
+/blog/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png 590w,
+/blog/static/7ad502a2f3ed75ac82026125de15b0d7/efc66/orig.png 885w,
+/blog/static/7ad502a2f3ed75ac82026125de15b0d7/c83ae/orig.png 1180w,
+/blog/static/7ad502a2f3ed75ac82026125de15b0d7/29114/orig.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;even after this, i actually tried some of my own blackout poetry, using the flat python library. i had a particular song that i really enjoyed, and i noticed that each couplet of lines in the stanza can be put together as individual thoughts.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABi0lEQVQoz3VSOaoCURD0LAYGgqDDuKOTeCNDY89hZqQeQUGMxHACFWQY0cR937X81dDzXf4vaF6P3a9eVbc+/OB+v2M2m2G9XmO1WmE6nUpOPB4PCeJ4PMJ1XQyHQ4xGIwwGA8zn87c+n37sdjtsNhscDgcv50Os8SS63S4Mw0AoFJLT7/ejUChI7Xa7/RLywn6/FyKeJCXh5XKB1oler4dkMoloNIpEIgHTNJHL5bBcLr0+T6HaJdFkMpGcY+Ajapl5s9mUaLVaqNfraDQaGI/HOJ1O0uMR8gcqU8v8Pp/PuF6vHiEfqVarqFQqqNVqKJfL6HQ6oox9HiGx3W6xWCxEPi+qjVfLnCHtRiIRxGIxBAIBFIvF76XwAglpm8Fcl6JB9Pt9WJaFdDotZzgcFpUE3fxpmUshKQmpUomVMJvNIpVKIZPJiEpum8G5vhGqKtpl8G/wqZBbjsfjYjsYDCKfz8NxHNi2LXffCDnU13iFLoUzpkVGqVRCu93+6vNp8yd0yFr/r0+daP0J2ZoNyb/byfkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;exp&quot;
+        title=&quot;exp&quot;
+        src=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png&quot;
+        srcset=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/12f09/exp.png 148w,
+/blog/static/31ec65838c8e9829f2da072cf0f441fa/e4a3f/exp.png 295w,
+/blog/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png 590w,
+/blog/static/31ec65838c8e9829f2da072cf0f441fa/efc66/exp.png 885w,
+/blog/static/31ec65838c8e9829f2da072cf0f441fa/c83ae/exp.png 1180w,
+/blog/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;so, taking this idea and expanding it further, i took two pieces of literature — &lt;em&gt;Twilight&lt;/em&gt; by Stephanie Meyer and &lt;em&gt;50 Shades of Grey&lt;/em&gt; by E. L. James as my corpus. since &lt;em&gt;50 Shades&lt;/em&gt; was originally written as a fanfiction of &lt;em&gt;Twilight&lt;/em&gt;, i wanted to tear them up and mix them together as parent and child. &lt;/p&gt;
+&lt;h2&gt;process&lt;/h2&gt;
+&lt;p&gt;i found text files of both novels and used them as my baseline. from there, i used spacy to parse the text explicitly for proper nouns (so names, places) and interjections. something that is common in both is the use of interjections, especially because it is a huge part of Bella Swan’s character in &lt;em&gt;Twilight&lt;/em&gt;. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# getting interjections
+uh_twilight = [item.text for item in twilight if item.tag_ == &amp;#39;UH&amp;#39;]
+uh_shades = [item.text for item in shades if item.tag_ == &amp;#39;UH&amp;#39;] 
+
+# getting proper nouns
+nnp_twilight = [item.text for item in twilight if item.tag_ == &amp;#39;NNP&amp;#39;]
+nnp_shades = [item.text for item in shades if item.tag_ == &amp;#39;NNP&amp;#39;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;i also cleaned up the resulting arrays, since there was punctuation i didn’t want along with duplicates.&lt;/p&gt;
+&lt;p&gt;from there, i had to sketch out how exactly i wanted the sentences to be constructed — were there particular ways i wanted it to be formatted?
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaUlEQVQoz62QW08TURSF/Z9ECM9KggnyqhhNjEECQpDSlnZ6Y6bTG3Q6bact0tICWiAgAiaCUkpb7peAEHngc4MP5Qe4k312ck7Ot9baj5Ba29jgzdt3qEGNlJXCTCVJJE0M0yAhbSYTJFMmVs5iemaa4nyJ+fIXVla/sbb+nfUfm1xdX9+heHR3nJ2d0tPzAl3zkkoZ5LIG+SmD6ewkucwEmXQUKx0jK/eFQpp8PkNBwMvLC5QXF1haWeXi8rIJPD8/o6PjKRHdKx+y4lQnFgsLZIK0gNLpCJYVIZOJMiVCxWKGcjnP6tcys3OzzH0uC+P8IfCU7u4uYmEfs8Us4+NBItEwelgnoKrE4zpa0E80FsA0g+J0gpkZi6XFEoVinkzuk6R8ADw+PqS9vY2AZ5TyXI5EPErSjGFJ3GgsKK0S1P34Ai4RcxEJ++U9QqmUxcqmmDQSXFw8iHxycsTzrk7Cqkv2ZhAKqjicCoY4c3u9ON1uQiEfNrsdu9OGz2cXx4q4DaPpKh7/uDBOm8DDg31aH7fgdgxRyBnExVU8ppGYUO/XoIc86LqCprkE5kBRbHgUOyFxrXjcDNsc7NbqTeDR0QHPOp8QUEZIGaIa8OJV3ISDHqIC0rUx/AE7LtcwDhEdc3xkzDmC1+PAbrfR2zfATrXaBO7v1WlrbcFp68cydRKy/JDmIaRKVHGlqU68vlFGbYMMDfYxONDL4If3jAwP0N/fx8tXr6lUKk3gzc0ffm5t0qhXJX6Dg/06RzIb9V0ajRp7e7X7WdutUq1W2KlsU9n+dT+3ZW5ubfH76uof8Pb2lv9Vd6y/0ITVbPOLDI8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sketch&quot;
+        title=&quot;sketch&quot;
+        src=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png&quot;
+        srcset=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/12f09/sketch.png 148w,
+/blog/static/0a83a53be6d1119dd8944355770e5967/e4a3f/sketch.png 295w,
+/blog/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png 590w,
+/blog/static/0a83a53be6d1119dd8944355770e5967/efc66/sketch.png 885w,
+/blog/static/0a83a53be6d1119dd8944355770e5967/c83ae/sketch.png 1180w,
+/blog/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;and that resulted in my ruleset&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;rules = {
+    &amp;#39;origin&amp;#39;: [&amp;#39;#uh.capitalize# ,,, #nnp#&amp;#39;, 
+            &amp;#39;#uh.capitalize# ,,, #nnp# ,,, #uh#&amp;#39;, 
+            &amp;#39;#uh.capitalize# ,,, #uh# ,,, #nnp# ,,, #uh#&amp;#39;, 
+            &amp;#39;#nnp# ,,, #uh# ,,, #nnp# ,,,&amp;#39;, 
+            &amp;#39;#uh.capitalize# ,,, #nnp# ,,, #nnp# ,,, #uh# ,,,&amp;#39;],
+    &amp;#39;uh&amp;#39;: parsed_uh,
+    &amp;#39;nnp&amp;#39;: parsed_nnp
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;i added these extraneous commas to represent where i wanted the black boxes to go. i ultimately did end up appending extra commas to have alternative lengths throughout so that each generated sentence would have different covered “text”. &lt;/p&gt;
+&lt;p&gt;some issues i was running into, however, was that the text and rectangles operate on different layers. not only that, but the rectangles are at a different scale than the text, so each character does not have a definitive width to use as a baseline for the width of the rectangle. &lt;/p&gt;
+&lt;h2&gt;going forward&lt;/h2&gt;
+&lt;p&gt;some other ideas to explore going forward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;getting rectangles to work&lt;/li&gt;
+&lt;li&gt;actually generating more text instead of faking it (perhaps even randomly selecting the blackout portions similar to the original concept)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1&gt;resources&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[travels of a love letter]]></title><description><![CDATA[Idea Drawing inspiration from Zen Garden, I wanted to create what it is like as a digital love letter. It is one sided, so the player must…]]></description><link>http://blog.samheckle.com/catn/assignment-3/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-3/</guid><pubDate>Mon, 07 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Idea&lt;/h2&gt;
 &lt;p&gt;Drawing inspiration from &lt;a href=&quot;https://cephalopodunk.itch.io/zen-garden-portland&quot;&gt;Zen Garden&lt;/a&gt;, I wanted to create what it is like as a digital love letter. It is one sided, so the player must piece together the responses from the other person. &lt;/p&gt;
 &lt;h2&gt;Game&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/love-letter/travels_of_a_love_letter.html&quot;&gt;game&lt;/a&gt;&lt;/p&gt;
