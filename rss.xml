@@ -1,10 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Apr 2022 09:57:59 GMT</lastBuildDate><item><title><![CDATA[a linear story]]></title><description><![CDATA[look here for the story inspiration process final resources https://www.reddit.com/r/Inform7/comments/lzlj7f/how_to_iterate_through_list_of…]]></description><link>http://blog.samheckle.com/catn/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-4/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Apr 2022 22:10:29 GMT</lastBuildDate><item><title><![CDATA[a linear story]]></title><description><![CDATA[look here for the story inspiration something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts…]]></description><link>http://blog.samheckle.com/catn/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-4/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts onto paper. so, i wanted to use inform 7 to actually go physically backwards in a memory, and try and trace the map of how this would be represented with text.&lt;/p&gt;
+&lt;p&gt;i’ve also been reading a lot about memory (cc &lt;em&gt;dirk gently’s holistic detective agency&lt;/em&gt; by douglas adams and &lt;em&gt;mcglue&lt;/em&gt; by ottessa moshfegh) which i would also recommend for no other reason than pleasure.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVQoz61S2XKDMAzk/7+xhUw4fAMGTLgm6kok9KHTt2RmZ+1Y3l0JZ9u2EWPfd1rXVZixrAsdx3FhP3baXmf/AnVZSom89xRjJOcc9bGXtTGGhmGgOMTzP3Ca5xfSyY+ZppSuPa8zdu77XjBNI3Vdi3VHWisYWOG6rqisKjFplCKltYDXLeotgmicsWl2QDCEQJVc0GRxYK2lpqmxV8JVVdLtdqMa6+88FyHnHRnUOXTHgnw2jMNvQhaNaK1tgyT0uGCtwd6fRkjrg0cSTQE1HWo4HSdjTo90Cr4TKriyCM+ThYoiR6qCyvJO+fcX5UVxJSyQlg14XyL9HTVsdAlKQgjx8JVqZI4hYC66gbimGpf4goGRebPl1AYtW7nD85YZbttKD3ytZXnIRxnHiK8FniIKOrQW0JJHm9yyEWa0rQM7Ya4568KZkLHv/B5XvMVFxNlk5ueQJhgNMPiLSTBKAK5L80QZffiXPZ9P+iR+AMd4StGn2cENAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;quotes&quot;
+        title=&quot;quotes&quot;
+        src=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png&quot;
+        srcset=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/12f09/quotes.png 148w,
+/blog/static/c70fd35d9cce394d83f18043ff542093/e4a3f/quotes.png 295w,
+/blog/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png 590w,
+/blog/static/c70fd35d9cce394d83f18043ff542093/efc66/quotes.png 885w,
+/blog/static/c70fd35d9cce394d83f18043ff542093/c83ae/quotes.png 1180w,
+/blog/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;process&lt;/h2&gt;
+&lt;p&gt;i started with the shape of the map i wanted first. something i’ve noticed when writing these interactive fictions is thinking about the whole story and the shape rather than the individual details. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9ElEQVQoz62SSXPaUBCE9f//EYeQsokvMXFsS0hC+76iBQFC5NLpN1Cuyj1UTY0k3vume2a0223BslwxXy+4XM44nSccpwHTNKIoc0RRgLoukGYRfN+FH7iomwJVnUtu2pJRoT0wmLV/gScBKlg/dIjjEEHgIwx9uajy3rFYxGexVHIYepLzPCG0JpCw63XGPJ9xfsDGY4+ub5HxUJJGyItU1IS8aO9NeL7D/2IEhMVxgJRnsixGwzPasiwCFLunibC7um448EJAgE27rN412Jk6ttufVGkKMC8SiaJMUFJxVWbQrsrufKHVE3t3xDAOBPY4dC37VKGsaTUK4bJ/Du3a+x0LuSwSUn0goZ5VgYJwbaa68+WCieqGcaQyZbdDc2hYueDBDPrOwOuvLXY7nYpiAcSJL5HE90jTO1SASt30sKtgB0bVVHBcVyw7rkObNjxvz2cLpqUjij0kSfAFE5XMmgLkWc6mZqxeSN+UqrJS6lLpX5apiYbSw7e3V+jGO9V+QNd/Y2d88NsWn5/vMm2tbVvuVwDXcanAg2masCyL6xAwm4QYVLWXlbFtE5vNE9brb3h52WDz/IQfm2d8X6+xWq1gGDrX5s+NQ7lP+UjLqsAwDNIC9T4eOSS66B7RNDUXvZJo24a710pW3/u+h4b//PsLU4EuJJZXtk0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;map&quot;
+        title=&quot;map&quot;
+        src=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png&quot;
+        srcset=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/12f09/map.png 148w,
+/blog/static/f873a0c1e4836a4264728dcd721721d6/e4a3f/map.png 295w,
+/blog/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png 590w,
+/blog/static/f873a0c1e4836a4264728dcd721721d6/efc66/map.png 885w,
+/blog/static/f873a0c1e4836a4264728dcd721721d6/c83ae/map.png 1180w,
+/blog/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;i wanted to have something that was cyclical — the start and the end being the same. &lt;/p&gt;
+&lt;p&gt;each “room” manifested themselves as a part of the thought process. ideas manifest themselves as containers that you can go into. they change each time you enter the idea as well, as demonstrated below.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/29114/after.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABhklEQVQoz31Si3KCMBDs/39dx1FrLSJQ5CUiBkkISdhegljRaW9m50i42dze3tswDLBR1hW8MEBWlMiLIyrGUdQdsrPNwqFknctV04FxifO1ozoBqbTjsFxvE2FVM3yFCfy4QBBn2AYJIaW7DLvv/J7tfVIy5PRQWrWor9IRWZoZYV2fsfd9HOIYp1OJa8Nwoa5V39FfQ9V6hNEwxqBXI4wZ7t3ZuBO2bYvjsUQYRkjSFM21JSnmBZZEaYMpxu6GB8kYZpedlGgYw/tihdXnDjsaw5lmdqJZ2cxaiVb0eI7fDp9e4ZyDsQuiQ45NVOIrruCndC4ahDlzsGeLIGPYE9pOvZoykbr59D12foDFh+dcty5aqUJqcKkcBKHrtcvamDnhIzgXzqCtF2DpHbAJj9jfuqmaUXZN62JXxjpsV+hlbR4hxEi4Wm+w3HiIkgIXmhsnWdYMPcHcQN9mZsqTZK1JhuBYLNd4X27hRyku1AlV4L94WZtHY2wo1dMsJT2gZv//wlTzA/TGVCxdURfTAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;after&quot;
+        title=&quot;after&quot;
+        src=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png&quot;
+        srcset=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/12f09/after.png 148w,
+/blog/static/f216aaa984b789efb1524705db3e5706/e4a3f/after.png 295w,
+/blog/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png 590w,
+/blog/static/f216aaa984b789efb1524705db3e5706/efc66/after.png 885w,
+/blog/static/f216aaa984b789efb1524705db3e5706/c83ae/after.png 1180w,
+/blog/static/f216aaa984b789efb1524705db3e5706/29114/after.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;final&lt;/h2&gt;
+&lt;p&gt;i ended up breaking my story into separate sections, each with their respective room. i didn’t play around too much with items but i might continue to do that later.&lt;/p&gt;
+&lt;p&gt;list of rooms: Death, Revelation, Spiraling, Thoughts, Decision, Naming, Birth&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story again&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;resources&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Inform7/comments/lzlj7f/how_to_iterate_through_list_of_values/&quot;&gt;https://www.reddit.com/r/Inform7/comments/lzlj7f/how_to_iterate_through_list_of_values/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[inspiration process final resources]]></description><link>http://blog.samheckle.com/template-index/</link><guid isPermaLink="false">http://blog.samheckle.com/template-index/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://inform7.com/book/RB_3_2.html&quot;&gt;inform map docs&lt;/a&gt;
+&lt;a href=&quot;http://inform7.com/book/WI_17_1.html&quot;&gt;inform understand docs&lt;/a&gt;
+&lt;a href=&quot;https://intfiction.org/t/multiple-rooms-inside-another/10642&quot;&gt;multiple rooms inside another&lt;/a&gt;
+&lt;a href=&quot;https://www.reddit.com/r/Inform7/comments/lzlj7f/how_to_iterate_through_list_of_values/&quot;&gt;iterating through list&lt;/a&gt;
+&lt;a href=&quot;http://inform7.com/book/RB_11_6.html&quot;&gt;inform end docs&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[inspiration process final resources]]></description><link>http://blog.samheckle.com/template-index/</link><guid isPermaLink="false">http://blog.samheckle.com/template-index/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
 &lt;h2&gt;process&lt;/h2&gt;
 &lt;h2&gt;final&lt;/h2&gt;
 &lt;hr&gt;
