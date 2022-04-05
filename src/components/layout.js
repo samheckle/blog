@@ -67,7 +67,7 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: `40%`,
+        maxWidth: `60%`,
         padding: `${1.5} ${3 / 4}`,
       }}
     >
