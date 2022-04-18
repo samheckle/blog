@@ -1,4 +1,231 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Apr 2022 22:10:29 GMT</lastBuildDate><item><title><![CDATA[a linear story]]></title><description><![CDATA[look here for the story inspiration something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts…]]></description><link>http://blog.samheckle.com/catn/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-4/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 18 Apr 2022 04:55:20 GMT</lastBuildDate><item><title><![CDATA[markov chains]]></title><description><![CDATA[inspiration my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we…]]></description><link>http://blog.samheckle.com/rwet/assignment-5/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/assignment-5/</guid><pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we are working on that this upcoming week, i am preparing my corpus for what i want to break down in the next week. the corpus itself is something that is relevant to my thesis — drawing from readings about intimacy and technology. &lt;/p&gt;
+&lt;p&gt;a few big questions i want to answer here: how can we be intimate with technology? or is technology only another medium to be intimate with other people? what drives intimacy?&lt;/p&gt;
+&lt;h2&gt;process&lt;/h2&gt;
+&lt;p&gt;the &lt;a href=&quot;https://github.com/samheckle/rwet/blob/742bb5a11eebd85ffdeb488a20a98a5fd39a9721/assignment-5/corpus.txt&quot;&gt;initial corpus&lt;/a&gt; was created from excerpts and my notes from the following books:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Make it Scream, Make it Burn&lt;/em&gt; by Leslie Jamison&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Pop Song: Adventures in Art and Intimacy&lt;/em&gt; by Larissa Pham&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Collected Schizophrenia&lt;/em&gt; by Esme Wang&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Carrier Bag Theory of Fiction&lt;/em&gt; by Ursula K. Le Guin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;one thing i will note is that i &lt;em&gt;did not&lt;/em&gt; get permission to use these books, nor did i write them myself. &lt;/p&gt;
+&lt;p&gt;each iteration below goes through the process of how i created my short poems though.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBElEQVQoz42Sh26EQAxE7/+/kt57BwG+PCs+XZITZCXLtHnrneEhX+s8T5ocxyFVVUnTNNK2rQzDoL3ve+m6Tuq61vdFUej1siwvrfXHJyACA1ffkLIsZRxHWddVC9i2bfdAYFEUieM4EoahBEEgaZoqnCmZms4GXF8C6YjjOFaQ7/sK5Z7nSZLoPce1DUx3CbTjmpBuNpgleHvrIZ2POQ6FOM9zBc7zrOHQqWmaxJbpPwItAECEgPEU/lL7vv+o39A/wCzL1CfP88R1XQ0IG0iWydiEMCg2uvSQCRADIQhCIRzC4LgGsiPTbz1kQoMBxz8ssFB4b7BbIMt+XESk+J/1rn8CiudV164elsIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;a first sample of getting text working&quot;
+        title=&quot;a first sample of getting text working&quot;
+        src=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png&quot;
+        srcset=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/12f09/first.png 148w,
+/blog/static/ee08754801c01129ef3cd5fdcb31ed96/e4a3f/first.png 295w,
+/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png 590w,
+/blog/static/ee08754801c01129ef3cd5fdcb31ed96/efc66/first.png 885w,
+/blog/static/ee08754801c01129ef3cd5fdcb31ed96/c83ae/first.png 1180w,
+/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;a first sample of getting text working&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABLElEQVQoz42SiY6CUAxF/f/vIxgURdkEwyIgKrJ0PE1eMiMj8SVNC6SHe/u6kteZpokkwzCI53lyOp0kjmM5Ho8a5eUiTdNIWZYat9tNuq6Tvu/F9BvG6h2Ypqk25XkulxeI5rqupW1bhVLf73cxx/SaMwMWRSHn81mjqip5PB6qhAzIqHoH/quQDAjbURTJ4XDQZ2OfURA44MfYXrQ8jqNaBgAUYJIkmoMgEN/3JQxD/Qn18/mc2Z4B9/u9OI6jGVWu68pms9F6u91qDZT3KP1aISqor9erKmG+fKfGKmEuZxGIFdu2xbIsrY1dlK3Xa1W/2+3UQZZls8v5A+QGaWLwrA23zKqQUQsYCN+YLe8R8RFo1ob9I7N735yPl0JGJfNh75iXmc9S/Gb8AKffUTP/pbkAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;testing with character input rather than n-gram by words&quot;
+        title=&quot;testing with character input rather than n-gram by words&quot;
+        src=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png&quot;
+        srcset=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/12f09/second.png 148w,
+/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/e4a3f/second.png 295w,
+/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png 590w,
+/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/efc66/second.png 885w,
+/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/c83ae/second.png 1180w,
+/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;testing with character input rather than n-gram by words&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVQoz62S2QqEMAxF/f9Pk77qk1pcq7ZuCIKi3pmEKeLLDCO9EMhSTpK2Ht46z9OJkTx85AxoHRciFk84TRPiOEZd10jTFHmeYxgGZFkGYwyKokDbtlyrqgpN02BZFjaKpZTYtu1aWWsNIQTCMEQQBIiiiHNk1KwsS3RdxyCbH8eRcxZ8HMcFpAJN6Ps+kiThSZVSDJvnmacjnyB937NPUGpkQbeV933nYF1Xtid39/VRnrzu7dv8OvSPPDiWc+ALw55efh+JbKQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;now testing the structure of the poem&quot;
+        title=&quot;now testing the structure of the poem&quot;
+        src=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png&quot;
+        srcset=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/12f09/third.png 148w,
+/blog/static/2afb961e44d003e33ce8bac3370cf99b/e4a3f/third.png 295w,
+/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png 590w,
+/blog/static/2afb961e44d003e33ce8bac3370cf99b/efc66/third.png 885w,
+/blog/static/2afb961e44d003e33ce8bac3370cf99b/c83ae/third.png 1180w,
+/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;now testing the structure of the poem&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;after creating the structure i wanted to see what the output would be on short sentences that were created from short sentences. i created a new file that pulls in the output from the previous markov chains that resulted in &lt;a href=&quot;https://github.com/samheckle/rwet/blob/0650ae109b8327313284314dc87f7a3b4590904f/assignment-5/derived-corpus.txt&quot;&gt;this file&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVQoz62Sx6pyQRCEff93EHwBwYVudGEOmAOooKAoZsw51v9/DXO4wl3egWbmdM9UV1Ufn/6v+/2u4/Gow+Fg+26302az0X6/13a79XLE+Xy2e9T4Xi6X9k3+8/nIB+DtdjPQyWRiAJ1OR4FAQNls1iIWi8nv96tUKimXy1ktGAwqHA6rUChoPp/r8Xh8A14uF4vT6WSdV6uVx2K9XluMx2P1ej1jRR0V5HnDWw+Qg5ML0+fz+RXX69VjQLxeL2+nTo3dAN/vN5iq1+uKRCJqNpvGAvB0Om0WtNttlctlkxiNRu0uzH9bPlBZ0+lUi8VC3W7XvByNRhoMBuYP0e/3VSwWbafOXeTyDqZOqQeI4XiSSqUUCoWMLR62Wi0lk0nl83klEgnzG4YMioHAGEVOqQfIZJHYaDQ0m800HA5twrVazdgyhEwmo2q1ajmYVioVA0eBw/EAkYB/dKUjoDAieAB7AGmCGhrG43FjytnJ9qb8F+vLQ3Z8INzvwdn9Ij/rP8PlHc4/MNE0lmt6kbAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain.&quot;
+        title=&quot;the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain.&quot;
+        src=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png&quot;
+        srcset=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/12f09/tragic.png 148w,
+/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/e4a3f/tragic.png 295w,
+/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png 590w,
+/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/efc66/tragic.png 885w,
+/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/c83ae/tragic.png 1180w,
+/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWElEQVQoz42S2Y6CUBBE+f8PwwgGI6AGXFDccN+FxMRyTie8TWa4SaXv0l1d1eBUVaXX66Xz+azn86nH42G43W52TwSHw0Gn00llWYr1+Xx+hbNer9Xr9ZSmqaIoMrDnbjgcKgxDI4Jwt9vpfr/rr+VsNhu1Wi2NRiNlWaZ+v29EFMdxbNhut9rv9zoej1oulyqKwiJnGlE3n8/NicPFYDCwR7pzSXFtlVGg8Hq96nK52J7IGfBOc2re77ccElAEKfbYAyyjfDweGwnkNKWQM3PmzMhq1WZ5sVjIdV0jmE6narfb6na7Wq1W8n1f6c8oIEEFbiiu58m4eMMu5EZIN8/zNJlMLDlJElNIUhAEphCLKCQCCLFLLZYh5Q8xQpg7nY4BZXwcVKO4/lCz2cxIaEJxnufWnMhbbdcImQUfAwskMRP2KCEy6CaLf9AImyb/hzrPaZLcFKwvTBM+65cwMG4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;using characters still but changing the order to be higher (previously it was at 1 and changed to 7)&quot;
+        title=&quot;using characters still but changing the order to be higher (previously it was at 1 and changed to 7)&quot;
+        src=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png&quot;
+        srcset=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/12f09/fifth.png 148w,
+/blog/static/c0c848a521fca120c5a3355617f740e0/e4a3f/fifth.png 295w,
+/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png 590w,
+/blog/static/c0c848a521fca120c5a3355617f740e0/efc66/fifth.png 885w,
+/blog/static/c0c848a521fca120c5a3355617f740e0/c83ae/fifth.png 1180w,
+/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;using characters still but changing the order to be higher (previously it was at 1 and changed to 7)&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUklEQVQoz4WSW6uCUBCF/f9P/QMfgh6SQLpAJCi+RuBbUGlKamY3sujqZZ0zA/tgdjkDg9u9t2u+WaOE3yiKgpNiv98jDENe3243pGnK+Xg8IO6eTidO8V4OSWzmec4btm2j3W6j1WqhXq9zAd/3EQQB5vM5arUaer3eX1Hx3ZNgudLlcsH5fGaB1WqFLMuYJkkSHI9HuK6Lw+GAcmdlyhfC2WwG0zQxGAzQ6XQwGo3wKcpi4ilVD4hsOp1ivV7zmtolD+n8fr+zr1Wqr4Qk1mg0sFwuMR6PIcsy+v0+ms0mhsMhdF2HoiicdE6WfCUk3+gi+bTb7XgQlERKScOYTCawLIu7IOq3gqKSYRhM2O12eRie5/HENU2Dqqos+s7Ll5bF5na75bbJP/r3NpsNHMfBYrFAFEWI4xjX6/Vlwk+E7yr9F1Whj4RiQGWC6vsnMYof2/1GuvZ3hbgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;using characters but a lower order (using 1)&quot;
+        title=&quot;using characters but a lower order (using 1)&quot;
+        src=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png&quot;
+        srcset=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/12f09/sixth.png 148w,
+/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/e4a3f/sixth.png 295w,
+/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png 590w,
+/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/efc66/sixth.png 885w,
+/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/c83ae/sixth.png 1180w,
+/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;using characters but a lower order (using 1)&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;!-- ## final --&gt;
+&lt;hr&gt;
+&lt;h1&gt;resources&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-5/assignment-5.ipynb&quot;&gt;code&lt;/a&gt; &lt;a href=&quot;https://github.com/aparrish/predictive-text-and-text-generation/blob/master/predictive-text-and-text-generation.ipynb&quot;&gt;in-class tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[a linear story]]></title><description><![CDATA[look here for the story inspiration something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts…]]></description><link>http://blog.samheckle.com/catn/assignment-4/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/assignment-4/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;inspiration&lt;/h2&gt;
 &lt;p&gt;something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts onto paper. so, i wanted to use inform 7 to actually go physically backwards in a memory, and try and trace the map of how this would be represented with text.&lt;/p&gt;
 &lt;p&gt;i’ve also been reading a lot about memory (cc &lt;em&gt;dirk gently’s holistic detective agency&lt;/em&gt; by douglas adams and &lt;em&gt;mcglue&lt;/em&gt; by ottessa moshfegh) which i would also recommend for no other reason than pleasure.&lt;/p&gt;
@@ -7891,51 +8118,4 @@ void loop() {
 &lt;p&gt;this blog assumes you have no familiarity with discord bots, so i will start with the basics (read: this was my first discord bot).&lt;/p&gt;
 &lt;p&gt;tools you will need:&lt;br&gt;
 &lt;a href=&quot;https://www.npmjs.com/package/discord.js&quot;&gt;discord.js&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save discord.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[about me]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>http://blog.samheckle.com/about-me/</link><guid isPermaLink="false">http://blog.samheckle.com/about-me/</guid><pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
-        srcset=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
-/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
-/blog/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
-/blog/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
-/blog/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
-/blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Chinese Salty Egg&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save discord.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
