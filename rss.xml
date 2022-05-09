@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 18 Apr 2022 04:55:20 GMT</lastBuildDate><item><title><![CDATA[markov chains]]></title><description><![CDATA[inspiration my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we…]]></description><link>http://blog.samheckle.com/rwet/assignment-5/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/assignment-5/</guid><pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://blog.samheckle.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 May 2022 15:14:12 GMT</lastBuildDate><item><title><![CDATA[final]]></title><description><![CDATA[try it out here! inspiration https://www.gutenberg.org/files/14407/14407-h/14407-h.htm
+https://github.com/samheckle/rwet/blob/master…]]></description><link>http://blog.samheckle.com/rwet/final/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/final/</guid><pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/gen-blackout-poetry/&quot;&gt;try it out here!&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gutenberg.org/files/14407/14407-h/14407-h.htm&quot;&gt;https://www.gutenberg.org/files/14407/14407-h/14407-h.htm&lt;/a&gt;
+&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-2/assignment-2.ipynb&quot;&gt;https://github.com/samheckle/rwet/blob/master/assignment-2/assignment-2.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;process&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://glitch.com/edit/#!/planet-green-flute&quot;&gt;https://glitch.com/edit/#!/planet-green-flute&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;final&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h1&gt;resources&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/filter-in-python/&quot;&gt;https://www.geeksforgeeks.org/filter-in-python/&lt;/a&gt;
+&lt;a href=&quot;https://realpython.com/python-lambda/&quot;&gt;https://realpython.com/python-lambda/&lt;/a&gt;
+&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/&quot;&gt;https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/&lt;/a&gt;
+&lt;a href=&quot;https://dev.to/matheusguimaraes/fast-way-to-enable-cors-in-flask-servers-42p0&quot;&gt;https://dev.to/matheusguimaraes/fast-way-to-enable-cors-in-flask-servers-42p0&lt;/a&gt;
+&lt;a href=&quot;https://stackoverflow.com/questions/45696999/fetch-unexpected-end-of-input&quot;&gt;https://stackoverflow.com/questions/45696999/fetch-unexpected-end-of-input&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[a linear story - refined]]></title><description><![CDATA[inspiration first iteration process added new functionality: “retrace steps”,  final resources https://intfiction.org/t/how-to-discard-most…]]></description><link>http://blog.samheckle.com/catn/final/</link><guid isPermaLink="false">http://blog.samheckle.com/catn/final/</guid><pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://samheckle.com/blog/catn/assignment-4/&quot;&gt;first iteration&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;process&lt;/h2&gt;
+&lt;p&gt;added new functionality: “retrace steps”, &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Understand &amp;quot;retrace steps&amp;quot; as retracing. 
+Retracing is an action applying to nothing. 
+Check retracing:
+    if the location is not Death, say &amp;quot;There are no footsteps to follow.&amp;quot; instead;
+Carry out retracing:
+    try going inside;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;final&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h1&gt;resources&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://intfiction.org/t/how-to-discard-most-default-actions-and-rules/3286/2&quot;&gt;https://intfiction.org/t/how-to-discard-most-default-actions-and-rules/3286/2&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[markov chains]]></title><description><![CDATA[inspiration my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we…]]></description><link>http://blog.samheckle.com/rwet/assignment-5/</link><guid isPermaLink="false">http://blog.samheckle.com/rwet/assignment-5/</guid><pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inspiration&lt;/h2&gt;
 &lt;p&gt;my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we are working on that this upcoming week, i am preparing my corpus for what i want to break down in the next week. the corpus itself is something that is relevant to my thesis — drawing from readings about intimacy and technology. &lt;/p&gt;
 &lt;p&gt;a few big questions i want to answer here: how can we be intimate with technology? or is technology only another medium to be intimate with other people? what drives intimacy?&lt;/p&gt;
 &lt;h2&gt;process&lt;/h2&gt;
