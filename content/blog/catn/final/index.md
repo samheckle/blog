@@ -4,6 +4,8 @@ date: "2022-05-01"
 description: ""
 ---
 
+[play here](http://samheckle.com/hosted/linear-reprise/)
+
 ## inspiration
 [first iteration](http://samheckle.com/blog/catn/assignment-4/)
 
